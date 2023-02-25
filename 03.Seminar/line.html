@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function findIntersection(x1, x2, x3, x4) { 
+  // находим минимальное и максимальное значение от обоих отрезков 
+  let edge1min = Math.min(x1, x2);
+  let edge1max = Math.max(x1, x2);
+  let edge2min = Math.min(x3, x4);
+  let edge2max = Math.max(x3, x4);
+  // если пересекаются, то максимальное значение первого больше минимального значения второго и наоборот 
+  if (edge1max >= edge2min && edge2max >= edge1min) {
+    // если макс первого равно минимальному второго - значит пересеклись в одной точке
+    if (edge1max === edge2min || edge2max === edge1min) {
+      let commonPoint = Math.max(edge1min, edge2min);
+      alert("Общая точка -  " + commonPoint);
+    } else { //иначе пересеклись в нескольких точках и есть отрезок 
+      let start = Math.max(edge1min, edge2min);
+      let end = Math.min(edge1max, edge2max);
+      alert("Отрезок пересечения: от  " + start + "  до " + end);
+    }   
+  } else {
+    alert("Не пересекаются");
+  }
+}
+// тест
+findIntersection(-2, 8, -6, 3); // отрезок пересечения: от -2 до 3
+    </script>
+</body>
+</html>
