@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <script>
+        function displayUserName() {
+            var name = prompt("Введите ваше имя", "");
+            if (name != null) {
+                document.getElementById("result").innerHTML = "Ваше имя: " + name;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>ДЗ№3 - JavaScript</h1>
+    <button onclick="displayUserName()">Нажмите здесь</button>
+    <p id="result"></p>
+</body>
+
+</html>
