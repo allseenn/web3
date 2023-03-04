@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+    <books>
+      <book>
+        <name>Название</name>
+        <author>Автор</author>
+        <quantity>Количество</quantity>
+        <pages>страниц</pages>
+        <date>Дата издания</date>
+        <price>Цена, руб</price>
+      </book>
+      <book>
+        <name>Камил видит руками</name>
+        <author>Томаш Малковски</author>
+        <pages>146</pages>
+        <date>2019</date>
+        <price>863</price>
+      </book>
+      <book>
+        <name>Вероятности и неприятности</name>
+        <author>Сергей Самойленко</author>
+        <pages>134</pages>
+        <date>2022</date>
+        <price>1055</price>
+      </book>
+      <book>
+        <name>Когда жизнь сбивает с ног</name>
+        <author>Расс Хэррис</author>
+        <pages>80</pages>
+        <date>2021</date>
+        <price>945</price>
+      </book>
+      <book>
+        <name>Цветы в темноте Cестра</name>
+        <author>Данг Нгием</author>
+        <pages>124</pages>
+        <date>2020</date>
+        <price>1027</price>
+      </book>
+      <book>
+        <name>Стратегии перемен</name>
+        <author>Джон Коттер</author>
+        <pages>102</pages>
+        <date>2022</date>
+        <price>1418</price>
+      </book>
+    </books>
+  </xsl:template>
+</xsl:stylesheet>

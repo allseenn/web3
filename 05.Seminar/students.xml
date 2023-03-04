@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+  <student>
+    <name>Карпова Анна Александровна</name>
+    <birthdate>2008</birthdate>
+    <class>8А</class>
+    <address>г. Москва, Ленинский проспект, д. 2, кв. 277</address>
+  </student>
+  <student>
+    <name>Малышкин Михаил Иванович</name>
+    <birthdate>2014</birthdate>
+    <class>2Б</class>
+    <address>г. Москва, Ленградское шоссе, д. 10, кв. 56</address>
+  </student>
+  <student>
+    <name>Андреева Алла Петровна</name>
+    <birthdate>2015</birthdate>
+    <class>1Г</class>
+    <address>г. Москва, Дмитровское шоссе, д. 107, кв. 2</address>
+  </student>
+</students>
